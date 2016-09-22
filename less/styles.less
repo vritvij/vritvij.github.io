@@ -2,6 +2,7 @@
 @dark-color1: #373737;
 @light-color1: #929292;
 @color2: #FFF;
+@dark-color2: #fcfcfc;
 
 @keyframes scale {
   0% {
@@ -82,6 +83,11 @@
 }
 
 #introduction {
+  min-height: 100vh;
+  .section-header {
+    margin-bottom: 1rem;
+  }
+
   #profile-photo {
     margin: 0 auto;
     position: relative;
@@ -121,42 +127,80 @@
           padding-right: 5px;
         }
       }
+      .linkedin {
+        word-break: break-all;
+      }
     }
   }
 }
 
 #education {
-  .section-header {
-    margin-bottom: 3rem;
+  background-color: @dark-color2;
+  .location, .year {
+    text-align: right;
   }
-  .college-wrapper {
-    margin: 1.5rem auto;
+}
 
-    .name {
-      font-weight: 500;
+#skills {
+  .skill-wrapper {
+    .skill-header {
+
+    }
+  }
+}
+
+#projects {
+  .wrapper {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    &:first-child {
+      margin-top: 2rem;
+    }
+    &:last-child {
+      margin-bottom: 2rem;
     }
 
-    .location, .year {
-      text-align: right;
+    &#ignite {
+      background-image: url("../img/Project-Ignite.jpg");
+    }
+    &#NDMatrix {
+      background-image: url("../img/Project-Ignite.jpg");
+    }
+
+
+    .container {
+      min-height: 500px;
+      margin-bottom: 0;
+      padding: 1rem 0;
     }
   }
 }
 
 .section {
-  min-height: 100vh;
+  //min-height: 500px;
+  margin: 2rem auto;
+
+  .wrapper {
+    margin: 2rem auto;
+  }
 
   .section-header {
     font-weight: 600;
+    margin-bottom: 3rem;
   }
 
-  &:nth-child(even) {
-    //background-color: rgba(0, 0, 0, 0.1);
+  .header {
+    font-weight: 400;
   }
 }
 
 @media all and (max-width: 600px) {
   #education {
-    .college-wrapper {
+    .wrapper {
       text-align: center;
       .location, .year {
         text-align: center;

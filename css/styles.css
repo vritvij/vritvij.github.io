@@ -68,6 +68,12 @@
 #nav li a.active i.material-icons {
   color: #555555;
 }
+#introduction {
+  min-height: 100vh;
+}
+#introduction .section-header {
+  margin-bottom: 1rem;
+}
 #introduction #profile-photo {
   margin: 0 auto;
   position: relative;
@@ -102,31 +108,59 @@
   vertical-align: middle;
   padding-right: 5px;
 }
-#education .section-header {
-  margin-bottom: 3rem;
+#introduction #profile-photo figcaption .linkedin {
+  word-break: break-all;
 }
-#education .college-wrapper {
-  margin: 1.5rem auto;
+#education {
+  background-color: #fcfcfc;
 }
-#education .college-wrapper .name {
-  font-weight: 500;
-}
-#education .college-wrapper .location,
-#education .college-wrapper .year {
+#education .location,
+#education .year {
   text-align: right;
 }
+#projects .wrapper {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#projects .wrapper:first-child {
+  margin-top: 2rem;
+}
+#projects .wrapper:last-child {
+  margin-bottom: 2rem;
+}
+#projects .wrapper#ignite {
+  background-image: url("../img/Project-Ignite.jpg");
+}
+#projects .wrapper#NDMatrix {
+  background-image: url("../img/Project-Ignite.jpg");
+}
+#projects .wrapper .container {
+  min-height: 500px;
+  margin-bottom: 0;
+  padding: 1rem 0;
+}
 .section {
-  min-height: 100vh;
+  margin: 2rem auto;
+}
+.section .wrapper {
+  margin: 2rem auto;
 }
 .section .section-header {
   font-weight: 600;
+  margin-bottom: 3rem;
+}
+.section .header {
+  font-weight: 400;
 }
 @media all and (max-width: 600px) {
-  #education .college-wrapper {
+  #education .wrapper {
     text-align: center;
   }
-  #education .college-wrapper .location,
-  #education .college-wrapper .year {
+  #education .wrapper .location,
+  #education .wrapper .year {
     text-align: center;
   }
 }
