@@ -1,0 +1,114 @@
+@keyframes scale {
+  0% {
+    -webkit-transform: translateX(-50%) scale(1);
+    -moz-transform: translateX(-50%) scale(1);
+    -ms-transform: translateX(-50%) scale(1);
+    -o-transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1);
+    opacity: 0.5;
+    border-color: #FFF;
+  }
+  100% {
+    -webkit-transform: translateX(-50%) scale(1.2);
+    -moz-transform: translateX(-50%) scale(1.2);
+    -ms-transform: translateX(-50%) scale(1.2);
+    -o-transform: translateX(-50%) scale(1.2);
+    transform: translateX(-50%) scale(1.2);
+    opacity: 0;
+    border-color: #929292;
+  }
+}
+#nav {
+  padding: 3rem 2rem;
+}
+#nav li {
+  margin-bottom: 1.8rem;
+  position: relative;
+}
+#nav li a {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  position: relative;
+  text-align: center;
+  transition: all 0.2s;
+  transform: scale(0.5);
+}
+#nav li a::before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border: 10px solid #555555;
+  background-color: #555555;
+  border-radius: 50%;
+  transition: background-color 0.1s;
+  z-index: -1;
+}
+#nav li a i.material-icons {
+  color: #555555;
+  transition: all 0.1s;
+  transform: scale(0.6);
+  line-height: 2rem;
+}
+#nav li a:hover {
+  transform: scale(1);
+}
+#nav li a:hover i.material-icons {
+  color: #FFF;
+}
+#nav li a.active {
+  transform: scale(1.5);
+}
+#nav li a.active::before {
+  border-width: 2px;
+  background-color: transparent;
+}
+#nav li a.active i.material-icons {
+  color: #555555;
+}
+#introduction #profile-photo {
+  pointer-events: none;
+  margin: 0 auto;
+  position: relative;
+}
+#introduction #profile-photo::before,
+#introduction #profile-photo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  border: 2px solid #FFF;
+  animation: scale 1.5s infinite ease-out;
+}
+#introduction #profile-photo::after {
+  animation-delay: 0.4s;
+}
+#introduction #profile-photo img {
+  height: 15rem;
+  border: 2px solid #FFF;
+}
+#introduction #profile-photo figcaption h3 {
+  font-weight: 600;
+}
+#introduction #profile-photo figcaption div:nth-child(2) i {
+  vertical-align: sub;
+  top: -1px;
+  position: relative;
+  padding-right: 5px;
+}
+.section {
+  min-height: 100vh;
+}
+.section:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
