@@ -108,20 +108,36 @@
     }
 
     img {
+      width: 15rem;
       height: 15rem;
       border: 2px solid @color2;
     }
 
     figcaption {
-      h3 {
-        font-weight: 600;
+      .location {
+        i {
+          line-height: inherit;
+          vertical-align: middle;
+          padding-right: 5px;
+        }
       }
-      div:nth-child(2) i{
-        vertical-align: sub;
-        top: -1px;
-        position: relative;
-        padding-right: 5px;
-      }
+    }
+  }
+}
+
+#education {
+  .section-header {
+    margin-bottom: 3rem;
+  }
+  .college-wrapper {
+    margin: 1.5rem auto;
+
+    .name {
+      font-weight: 500;
+    }
+
+    .location, .year {
+      text-align: right;
     }
   }
 }
@@ -129,7 +145,22 @@
 .section {
   min-height: 100vh;
 
+  .section-header {
+    font-weight: 600;
+  }
+
   &:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.1);
+    //background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media all and (max-width: 600px) {
+  #education {
+    .college-wrapper {
+      text-align: center;
+      .location, .year {
+        text-align: center;
+      }
+    }
   }
 }

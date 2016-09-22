@@ -93,21 +93,40 @@
   animation-delay: 0.4s;
 }
 #introduction #profile-photo img {
+  width: 15rem;
   height: 15rem;
   border: 2px solid #FFF;
 }
-#introduction #profile-photo figcaption h3 {
-  font-weight: 600;
-}
-#introduction #profile-photo figcaption div:nth-child(2) i {
-  vertical-align: sub;
-  top: -1px;
-  position: relative;
+#introduction #profile-photo figcaption .location i {
+  line-height: inherit;
+  vertical-align: middle;
   padding-right: 5px;
+}
+#education .section-header {
+  margin-bottom: 3rem;
+}
+#education .college-wrapper {
+  margin: 1.5rem auto;
+}
+#education .college-wrapper .name {
+  font-weight: 500;
+}
+#education .college-wrapper .location,
+#education .college-wrapper .year {
+  text-align: right;
 }
 .section {
   min-height: 100vh;
 }
-.section:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.1);
+.section .section-header {
+  font-weight: 600;
+}
+@media all and (max-width: 600px) {
+  #education .college-wrapper {
+    text-align: center;
+  }
+  #education .college-wrapper .location,
+  #education .college-wrapper .year {
+    text-align: center;
+  }
 }
