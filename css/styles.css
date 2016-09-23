@@ -118,9 +118,11 @@
 #education .year {
   text-align: right;
 }
+#skills .header {
+  margin-bottom: 0.75rem;
+}
 #projects .wrapper {
   background-size: cover;
-  background-position: center;
   background-attachment: fixed;
   margin-bottom: 0;
   margin-top: 0;
@@ -128,19 +130,26 @@
 #projects .wrapper:first-child {
   margin-top: 2rem;
 }
-#projects .wrapper:last-child {
-  margin-bottom: 2rem;
-}
 #projects .wrapper#ignite {
-  background-image: url("../img/Project-Ignite.jpg");
+  background-image: url("../img/Project-Ignite.png");
+  background-position: 35% 100%;
 }
 #projects .wrapper#NDMatrix {
-  background-image: url("../img/Project-Ignite.jpg");
+  background-image: url("../img/NDMatrixMultiplication.png");
+  background-position: 50%;
 }
 #projects .wrapper .container {
   min-height: 500px;
   margin-bottom: 0;
   padding: 1rem 0;
+}
+#projects .wrapper .team,
+#projects .wrapper .responsibilities {
+  margin-top: 1.5rem;
+}
+#projects .wrapper .team h6,
+#projects .wrapper .responsibilities h6 {
+  margin-bottom: 0.75rem;
 }
 .section {
   margin: 2rem auto;
@@ -154,6 +163,13 @@
 }
 .section .header {
   font-weight: 500;
+}
+.justify {
+  text-align: justify;
+}
+main {
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 @media all and (max-width: 600px) {
   #education .wrapper {
