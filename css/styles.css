@@ -134,9 +134,13 @@
   background-image: url("../img/Project-Ignite.png");
   background-position: 35% 100%;
 }
-#projects .wrapper#NDMatrix {
+#projects .wrapper#ndmatrix {
   background-image: url("../img/NDMatrixMultiplication.png");
   background-position: 50%;
+}
+#projects .wrapper#csi-cms {
+  background-image: url("../img/CSI-CMS.png");
+  background-position: right;
 }
 #projects .wrapper .container {
   min-height: 500px;
@@ -151,6 +155,9 @@
 #projects .wrapper .responsibilities h6 {
   margin-bottom: 0.75rem;
 }
+#projects .wrapper .notice {
+  margin-top: 1rem;
+}
 .section {
   margin: 2rem auto;
 }
@@ -163,9 +170,6 @@
 }
 .section .header {
   font-weight: 500;
-}
-.justify {
-  text-align: justify;
 }
 main {
   font-size: 1.25rem;
