@@ -63,13 +63,13 @@
 }
 #nav li a.active::before {
   border-width: 2px;
-  background-color: transparent;
+  background-color: #FFF;
 }
 #nav li a.active i.material-icons {
   color: #555555;
 }
 #introduction {
-  min-height: 100vh;
+  margin: 5rem auto;
 }
 #introduction .section-header {
   margin-bottom: 1rem;
@@ -111,15 +111,16 @@
 #introduction #profile-photo figcaption .linkedin {
   word-break: break-all;
 }
-#education {
-  background-color: #fcfcfc;
-}
 #education .location,
 #education .year {
   text-align: right;
 }
 #skills .header {
   margin-bottom: 0.75rem;
+}
+#projects {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 #projects .wrapper {
   background-size: cover;
@@ -136,16 +137,23 @@
 }
 #projects .wrapper#ndmatrix {
   background-image: url("../img/NDMatrixMultiplication.png");
-  background-position: 50%;
+  background-position: left;
 }
 #projects .wrapper#csi-cms {
   background-image: url("../img/CSI-CMS.png");
   background-position: right;
 }
+#projects .wrapper#ecomm-website {
+  background-image: url("../img/Ecomm.png");
+  background-position: right;
+}
+#projects .wrapper#disrs {
+  background-image: url("../img/disrs.png");
+  background-position: left;
+}
 #projects .wrapper .container {
-  min-height: 500px;
   margin-bottom: 0;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 #projects .wrapper .team,
 #projects .wrapper .responsibilities {

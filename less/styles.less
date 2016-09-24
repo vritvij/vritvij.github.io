@@ -71,7 +71,7 @@
         transform: scale(1.5);
         &::before {
           border-width: 2px;
-          background-color: transparent;
+          background-color: @color2;
         }
 
         i.material-icons {
@@ -83,7 +83,7 @@
 }
 
 #introduction {
-  min-height: 100vh;
+  margin: 5rem auto;
   .section-header {
     margin-bottom: 1rem;
   }
@@ -135,7 +135,6 @@
 }
 
 #education {
-  background-color: @dark-color2;
   .location, .year {
     text-align: right;
   }
@@ -148,6 +147,8 @@
 }
 
 #projects {
+  padding-bottom: 0;
+  margin-bottom: 0;
   .wrapper {
     background-size: cover;
     background-attachment: fixed;
@@ -164,18 +165,25 @@
     }
     &#ndmatrix {
       background-image: url("../img/NDMatrixMultiplication.png");
-      background-position: 50%;
+      background-position: left;
     }
     &#csi-cms {
       background-image: url("../img/CSI-CMS.png");
       background-position: right;
     }
-
+    &#ecomm-website {
+      background-image: url("../img/Ecomm.png");
+      background-position: right;
+    }
+    &#disrs {
+      background-image: url("../img/disrs.png");
+      background-position: left;
+    }
 
     .container {
-      min-height: 500px;
+      //min-height: 500px;
       margin-bottom: 0;
-      padding: 1rem 0;
+      padding: 2rem 0;
     }
 
     .team, .responsibilities {
