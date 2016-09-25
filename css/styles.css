@@ -50,7 +50,7 @@ main {
   animation: scale 1.5s infinite ease-out;
 }
 #introduction #profile-photo::after {
-  animation-delay: 0.4s;
+  animation-delay: 0.5s;
 }
 #introduction #profile-photo img {
   width: 12rem;
