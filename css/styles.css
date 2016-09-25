@@ -134,7 +134,7 @@ main {
   margin-top: 1rem;
 }
 #interests {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 @media all and (max-width: 600px) {
   #education .wrapper {
