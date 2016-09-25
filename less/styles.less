@@ -25,9 +25,8 @@
   }
 }
 
-body {
-  font-size: 17.5px;
-  font-weight: 300;
+html {
+  font-size: 14px;
 }
 
 #introduction {
@@ -102,6 +101,11 @@ body {
     background-attachment: fixed;
     margin-bottom: 0;
     margin-top: 0;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
 
     &:first-child {
       margin-top: 2rem;
@@ -150,6 +154,8 @@ body {
 
 .section {
   margin: 2rem auto;
+  font-size: 1.25rem;
+  font-weight: 300;
 
   .wrapper {
     margin: 2rem auto;
