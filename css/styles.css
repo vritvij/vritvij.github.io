@@ -18,9 +18,6 @@
     border-color: #929292;
   }
 }
-html {
-  font-size: 14px;
-}
 #introduction {
   margin: 5rem auto;
 }
@@ -126,8 +123,6 @@ html {
 }
 .section {
   margin: 2rem auto;
-  font-size: 1.25rem;
-  font-weight: 300;
 }
 .section .wrapper {
   margin: 2rem auto;
