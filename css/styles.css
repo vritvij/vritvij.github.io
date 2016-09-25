@@ -132,11 +132,10 @@ main {
   margin: 2rem auto;
 }
 .section .section-header {
-  font-weight: 600;
   margin-bottom: 3rem;
 }
 .section .header {
-  font-weight: 500;
+  font-weight: 400;
 }
 @media all and (max-width: 600px) {
   #education .wrapper {
