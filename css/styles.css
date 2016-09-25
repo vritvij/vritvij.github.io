@@ -30,6 +30,7 @@ main {
 }
 .section .section-header {
   margin-bottom: 3rem;
+  font-weight: 500;
 }
 .section .header {
   font-weight: 400;
@@ -122,6 +123,9 @@ main {
   margin-bottom: 0;
   padding: 2rem 0;
 }
+#projects .wrapper .card .card-content h5.card-title {
+  margin: 0;
+}
 #projects .wrapper .team,
 #projects .wrapper .responsibilities {
   margin-top: 1.5rem;
@@ -129,6 +133,7 @@ main {
 #projects .wrapper .team h6,
 #projects .wrapper .responsibilities h6 {
   margin-bottom: 0.75rem;
+  font-weight: 400;
 }
 #projects .wrapper .notice {
   margin-top: 1rem;
