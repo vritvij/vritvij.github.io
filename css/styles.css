@@ -23,7 +23,7 @@ main {
   font-size: 1.25rem;
 }
 #introduction {
-  margin: 5rem auto;
+  margin: 4.5rem auto;
 }
 #introduction .section-header {
   margin-bottom: 1rem;
@@ -121,8 +121,14 @@ main {
 #projects .wrapper .notice {
   margin-top: 1rem;
 }
+.section {
+  margin: 2rem auto;
+}
 .section .wrapper {
   margin: 2rem auto;
+}
+.section .wrapper:last-child {
+  margin-bottom: 0;
 }
 .section .section-header {
   margin-bottom: 3rem;
