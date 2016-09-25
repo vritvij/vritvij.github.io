@@ -22,6 +22,18 @@ main {
   font-weight: 300;
   font-size: 1.25rem;
 }
+.section {
+  margin: 1rem auto;
+}
+.section .wrapper {
+  margin: 1rem auto;
+}
+.section .section-header {
+  margin-bottom: 3rem;
+}
+.section .header {
+  font-weight: 400;
+}
 #introduction {
   margin: 4.5rem auto;
 }
@@ -123,18 +135,6 @@ main {
 }
 #interests {
   margin-bottom: 3rem;
-}
-.section {
-  margin: 1rem auto;
-}
-.section .wrapper {
-  margin: 1rem auto;
-}
-.section .section-header {
-  margin-bottom: 3rem;
-}
-.section .header {
-  font-weight: 400;
 }
 @media all and (max-width: 600px) {
   #education .wrapper {
