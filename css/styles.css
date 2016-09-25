@@ -121,14 +121,14 @@ main {
 #projects .wrapper .notice {
   margin-top: 1rem;
 }
+#interests {
+  margin-bottom: 3rem;
+}
 .section {
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 .section .wrapper {
-  margin: 2rem auto;
-}
-.section .wrapper:last-child {
-  margin-bottom: 0;
+  margin: 1rem auto;
 }
 .section .section-header {
   margin-bottom: 3rem;
