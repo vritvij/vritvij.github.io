@@ -72,10 +72,6 @@ main {
 #skills .header {
   margin-bottom: 0.75rem;
 }
-#projects {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
 #projects .wrapper {
   background-size: cover;
   background-attachment: fixed;
@@ -124,9 +120,6 @@ main {
 }
 #projects .wrapper .notice {
   margin-top: 1rem;
-}
-.section {
-  margin: 2rem auto;
 }
 .section .wrapper {
   margin: 2rem auto;
