@@ -70,13 +70,16 @@ main {
   height: 12rem;
   border: 2px solid #FFF;
 }
+#introduction #profile-photo figcaption .location {
+  margin-bottom: 0.5rem;
+}
 #introduction #profile-photo figcaption .location i {
   line-height: inherit;
   vertical-align: middle;
   padding-right: 5px;
 }
-#introduction #profile-photo figcaption .linkedin {
-  word-break: break-all;
+#introduction #profile-photo figcaption .links a {
+  text-transform: inherit;
 }
 #education .location,
 #education .year {
