@@ -70,9 +70,6 @@ main {
   height: 12rem;
   border: 2px solid #FFF;
 }
-#introduction #profile-photo figcaption .location {
-  margin-bottom: 0.5rem;
-}
 #introduction #profile-photo figcaption .location i {
   line-height: inherit;
   vertical-align: middle;
@@ -80,6 +77,8 @@ main {
 }
 #introduction #profile-photo figcaption .links a {
   text-transform: inherit;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 #education .location,
 #education .year {
