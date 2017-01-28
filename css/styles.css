@@ -101,20 +101,28 @@ main {
 #projects .wrapper:first-child {
   margin-top: 2rem;
 }
+#projects .wrapper#fol-inference-engine {
+  background-image: url("../img/fol-inference-engine.jpg");
+  background-position: center;
+}
+#projects .wrapper#gang-wars-agent {
+  background-image: url("../img/gang-wars-agent.jpg");
+  background-position: center;
+}
 #projects .wrapper#ignite {
-  background-image: url("../img/Project-Ignite.png");
+  background-image: url("../img/ignite.png");
   background-position: 35% 100%;
 }
 #projects .wrapper#ndmatrix {
-  background-image: url("../img/NDMatrixMultiplication.png");
+  background-image: url("../img/nd-matrix.png");
   background-position: left;
 }
 #projects .wrapper#csi-cms {
-  background-image: url("../img/CSI-CMS.png");
+  background-image: url("../img/csi-cms.png");
   background-position: right;
 }
 #projects .wrapper#ecomm-website {
-  background-image: url("../img/Ecomm.png");
+  background-image: url("../img/ecomm.png");
   background-position: right;
 }
 #projects .wrapper#disrs {
