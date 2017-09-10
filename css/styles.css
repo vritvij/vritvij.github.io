@@ -80,7 +80,9 @@ main {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+#experience .location,
 #education .location,
+#experience .year,
 #education .year {
   text-align: right;
 }
@@ -168,10 +170,13 @@ main {
   margin-bottom: 2rem;
 }
 @media all and (max-width: 600px) {
+  #experience .wrapper,
   #education .wrapper {
     text-align: center;
   }
+  #experience .wrapper .location,
   #education .wrapper .location,
+  #experience .wrapper .year,
   #education .wrapper .year {
     text-align: center;
   }
