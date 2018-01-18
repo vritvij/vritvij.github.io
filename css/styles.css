@@ -103,6 +103,14 @@ main {
 #projects .wrapper:first-child {
   margin-top: 2rem;
 }
+#projects .wrapper#dl-project {
+  background-image: url("../img/dl-project.jpg");
+  background-position: 0 0;
+}
+#projects .wrapper#cg-project {
+  background-image: url("../img/cg-project.jpg");
+  background-position: center;
+}
 #projects .wrapper#doneth {
   background-image: url("../img/doneth.png");
   background-position: center;
@@ -152,7 +160,8 @@ main {
   padding: 2rem 0;
 }
 #projects .wrapper .card .card-content h5.card-title {
-  margin: 0;
+  margin: 0 0 1rem;
+  line-height: 2rem;
 }
 #projects .wrapper .team,
 #projects .wrapper .responsibilities {
